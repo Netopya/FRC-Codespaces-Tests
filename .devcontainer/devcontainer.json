@@ -3,9 +3,7 @@
     // Name of the environment
     "name":"General FRC Development",
 
-    // Set the Docker image to use
-    // I will explain this below
-    "image":"ewpratten/frc_devcontainer:2020.3.2",
+    "build": { "dockerfile": "Dockerfile" },
 
     // Set any default VSCode settings here
     "settings": {
